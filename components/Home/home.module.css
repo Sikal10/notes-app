@@ -1,0 +1,29 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.dark {
+    background: rgba(0, 0, 0, 0.82);
+    min-height: 100vh;
+}
+
+.dark h2 {
+    color: #fff;
+}
+
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.button {
+    background: lightgrey;
+    border-radius: 20px;
+    padding: 6px 15px ;
+    color: black;
+    border: none;
+}

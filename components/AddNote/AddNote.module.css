@@ -1,0 +1,35 @@
+.addNote {
+    background: rgba(96, 225, 30, 0.73);
+    border-radius: 20px;
+    padding: 1rem;
+    min-height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    flex: 1;
+}
+
+.textArea {
+    background: none;
+    border: none;
+    resize: none;
+    color: grey;
+}
+
+.textArea:focus {
+    outline: 0;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.save {
+    padding: 6px 15px;
+    border-radius: 20px;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+}

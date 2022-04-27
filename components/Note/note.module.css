@@ -1,0 +1,29 @@
+.noteContainer {
+    background: rgba(245, 245, 56, 0.73);
+    border-radius: 20px;
+    padding: 1rem;
+    min-height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    flex: 1;
+    white-space: pre-wrap;
+}
+
+.top {
+
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete {
+    background: red;
+    color: #fff;
+    border-radius: 10px;
+    padding: 3px 9px;
+}
